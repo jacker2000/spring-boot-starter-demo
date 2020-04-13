@@ -1,0 +1,14 @@
+{
+  "properties": [
+    {
+      "name": "spring.user.name",
+      "defaultValue": "cxytinadi"
+    },
+    {
+      "name": "spring.user.enabled",
+      "type": "java.lang.Boolean",
+      "defaultValue": false,
+      "mvn":"mvn install:install-file -Dfile=algs4.jar -DgroupId=lib.algs4 -DartifactId=algs4 -Dversion=4.0 -Dpackaging=jar"
+    }
+  ]
+}
